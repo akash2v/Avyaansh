@@ -20,7 +20,7 @@ const products = {
             name: "Mountain Dew",
             description: "Energy Drink 750ml",
             price: 40,
-            image: "assets/mountain-dew.png"
+            image: "https://images-cdn.ubuy.co.in/65162a56f4fb8b2369085111-1-can-red-bull-energy-drink-cranberry.jpg"
         }
     ],
     aeratedBeverages: [

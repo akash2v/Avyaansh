@@ -70,29 +70,29 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const addToCartButtons = document.querySelectorAll('.btn-primary');
 const cartCount = document.querySelector('.fa-shopping-cart').parentElement;
 
-addToCartButtons.forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
+// addToCartButtons.forEach(button => {
+//     button.addEventListener('click', (e) => {
+//         e.preventDefault();
         
-        // Animate button
-        button.style.transform = 'scale(0.95)';
-        setTimeout(() => {
-            button.style.transform = 'scale(1)';
-        }, 200);
+//         // Animate button
+//         button.style.transform = 'scale(0.95)';
+//         setTimeout(() => {
+//             button.style.transform = 'scale(1)';
+//         }, 200);
         
-        // Update cart count
-        const currentCount = parseInt(cartCount.textContent.match(/\d+/)[0]);
-        cartCount.textContent = cartCount.textContent.replace(/\d+/, currentCount + 1);
+//         // Update cart count
+//         const currentCount = parseInt(cartCount.textContent.match(/\d+/)[0]);
+//         cartCount.textContent = cartCount.textContent.replace(/\d+/, currentCount + 1);
         
-        // Show notification
-        const notification = document.createElement('div');
-        notification.className = 'alert alert-success position-fixed top-0 end-0 m-3';
-        notification.style.zIndex = '1050';
-        notification.textContent = 'Item added to cart!';
-        document.body.appendChild(notification);
+//         // Show notification
+//         const notification = document.createElement('div');
+//         notification.className = 'alert alert-success position-fixed top-0 end-0 m-3';
+//         notification.style.zIndex = '1050';
+//         notification.textContent = 'Item added to cart!';
+//         document.body.appendChild(notification);
         
-        setTimeout(() => {
-            notification.remove();
-        }, 3000);
-    });
-}); 
+//         setTimeout(() => {
+//             notification.remove();
+//         }, 3000);
+//     });
+// }); 
