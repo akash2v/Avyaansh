@@ -17,40 +17,47 @@ const products = {
         },
         {
             id: 3,
-            name: "Mountain Dew",
+            name: "Red Bull ",
             description: "Energy Drink 750ml",
             price: 40,
-            image: "https://images-cdn.ubuy.co.in/65162a56f4fb8b2369085111-1-can-red-bull-energy-drink-cranberry.jpg"
+            image: "https://m.media-amazon.com/images/I/71VLVwOaE2L.jpg"
+        },
+        {
+            id: 4,
+            name: "Red Bull Blue",
+            description: "Energy Drink 750ml",
+            price: 40,
+            image: "https://5.imimg.com/data5/SELLER/Default/2023/5/307876249/BX/DL/YH/98405810/red-bull-energy-drink-250ml.jpg"
         }
     ],
     aeratedBeverages: [
         {
             id: 1,
-            name: "Pepsi",
+            name: "Coca Cola",
             description: "Soft Drink 1.5L",
             price: 85,
-            image: "assets/pepsi.png"
+            image: "https://rukminim2.flixcart.com/image/640/558/l3dcl8w0/aerated-drink/l/t/4/-original-imagegf8efekw8fv.jpeg?q=60&crop=false"
         },
         {
             id: 2,
-            name: "Sprite",
-            description: "Lemon Drink 2L",
-            price: 95,
-            image: "assets/sprite.png"
+            name: "Coka Cola Can",
+            description: "Lemon Drink 300ml",
+            price: 45,
+            image: "https://www.ghirne.com/wp-content/uploads/2025/01/image-259575-1716368916.jpeg"
         },
         {
             id: 3,
-            name: "Coca Cola",
-            description: "Soft Drink 2L",
+            name: "Coca Cola Bottle",
+            description: "Soft Drink 2.25L",
             price: 95,
-            image: "assets/coke.png"
+            image: "https://rukminim2.flixcart.com/image/850/1000/l3dcl8w0/aerated-drink/9/g/a/-original-imagegf8gczcghfu.jpeg?q=90"
         },
         {
             id: 4,
-            name: "7 Up",
-            description: "Lemon Drink 1.5L",
-            price: 85,
-            image: "assets/7up.png"
+            name: "Coca Cola Mini",
+            description: "Drink 250mL",
+            price: 65,
+            image: "https://5.imimg.com/data5/SELLER/Default/2024/1/381040856/OH/ZA/YD/205189144/competitive-price-top-grade-coca-cola-330ml-cans-coca-cola-1-5l-bottle.png"
         }
     ]
 };
