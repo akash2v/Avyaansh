@@ -21,7 +21,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <span class="gradient-text">Avyaansh's Beverage</span>
         </a>
         <button
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -52,15 +52,9 @@
                 Shop
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Energy Drinks</a></li>
-                <li><a class="dropdown-item" href="#">Juices</a></li>
-                <li><a class="dropdown-item" href="#">Dairy Beverages</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">All Products</a></li>
+                <li><a class="dropdown-item" href="energy-drinks.html">Energy Drinks</a></li>
+                <li><a class="dropdown-item" href="aerated-beverages.html">Aerated Beverages</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -78,306 +72,118 @@
 
     <!-- Hero Banner Section -->
     <div class="hero-banner">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 hero-content">
-                    <h1 class="hero-text">Avyaansh's Beverage</h1>
-                    <p class="lead">Premium drinks for every occasion</p>
-                    <a href="#" class="btn btn-light btn-lg">SHOP NOW</a>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/drinks.png" class="img-fluid banner-image" alt="Premium Beverages">
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 hero-content">
+            <h1 class="hero-text">Avyaansh's Beverage</h1>
+            <p class="lead">Premium drinks for every occasion</p>
+            <div class="d-flex gap-3">
+              <a href="energy-drinks.html" class="btn btn-primary btn-lg">Energy Drinks</a>
+              <a href="aerated-beverages.html" class="btn btn-outline-light btn-lg">Aerated Beverages</a>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="assets/banner.jpg" class="img-fluid banner-image" alt="Premium Beverages">
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Main Content -->
     <div class="container my-5">
-      <div class="row">
-        <!-- Categories Sidebar -->
-        <div class="col-lg-3 mb-4">
-          <div class="card shadow-sm">
-            <div class="category-title">Top Categories</div>
-            <div class="list-group list-group-flush">
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-glass-water me-2"></i>Juices
-              </a>
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-bolt me-2"></i>Energy Drinks
-              </a>
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-mug-hot me-2"></i>Dairy Based Drinks
-              </a>
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-bottle-water me-2"></i>Aerated Beverages
-              </a>
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-bread-slice me-2"></i>Bakery Breads and Dairy
-              </a>
-              <a
-                href="#"
-                class="list-group-item list-group-item-action category-item"
-              >
-                <i class="fas fa-cookie me-2"></i>Chocolates and Sweets
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Main Product Carousel -->
-        <div class="col-lg-6 mb-4" style="max-height: 400px;">
-          <div
-            id="productCarousel"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner rounded shadow">
-              <div class="carousel-item active">
-                <img
-                  src="assets/energy-drinks.png"
-                  class="d-block w-100"
-                  alt="Energy Drinks"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/soft-drink.png"
-                  class="d-block w-100"
-                  alt="Fresh Juices"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#productCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#productCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Featured Products -->
-        <div class="col-lg-3">
-          <div class="card shadow-sm mb-4">
-            <div class="card-header bg-primary text-white">
-              <i class="fas fa-bolt me-2"></i>ENERGY DRINKS
-            </div>
-            <div class="card-body text-center">
-              <h5>Unleash the Power.<br />Fuel Your Drive.</h5>
-              <img
-                src="assets/redbull.png"
-                class="img-fluid rounded my-2"
-                alt="Energy Drink"
-              />
-              <a href="#" class="btn btn-outline-primary d-block mt-2"
-                >Shop Now</a
-              >
-            </div>
-          </div>
-          <div class="card shadow-sm">
-            <div class="card-header bg-success text-white">
-              <i class="fas fa-mug-hot me-2"></i>DAIRY BASED DRINKS
-            </div>
-            <div class="card-body text-center">
-              <h5>Smooth Energy.<br />Pure Strength.</h5>
-              <img
-                src="assets/amul.png"
-                class="img-fluid rounded my-2"
-                alt="Dairy Drink"
-              />
-              <a href="#" class="btn btn-outline-success d-block mt-2"
-                >Shop Now</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Featured Products Section -->
-      <section class="py-5">
-        <div class="container">
-          <h2 class="text-center mb-4">Featured Products</h2>
-          <div class="row">
-            <div class="col-md-6 mb-4">
+      <!-- Categories Section -->
+      <section class="mb-5">
+        <h2 class="text-center mb-4">Our Categories</h2>
+        <div class="row">
+          <!-- Energy Drinks Category -->
+          <div class="col-md-6 mb-4">
+            <div class="category-card card h-100">
               <div class="img-container">
-                <img src="assets/energy-drinks.png" alt="Energy Drinks" class="featured-product-img">
+                <img src="assets/energy-drinks.png" class="card-img-top" alt="Energy Drinks">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Energy Drinks</h3>
+                <p class="card-text">Boost your energy with our premium selection of energy drinks.</p>
+                <a href="energy-drinks.html" class="btn btn-primary">Shop Energy Drinks</a>
               </div>
             </div>
-            <div class="col-md-6 mb-4">
+          </div>
+          <!-- Aerated Beverages Category -->
+          <div class="col-md-6 mb-4">
+            <div class="category-card card h-100">
               <div class="img-container">
-                <img src="assets/juices.png" alt="Fresh Juices" class="featured-product-img">
+                <img src="assets/soft-drink.png" class="card-img-top" alt="Aerated Beverages">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Aerated Beverages</h3>
+                <p class="card-text">Refresh yourself with our collection of aerated drinks.</p>
+                <a href="aerated-beverages.html" class="btn btn-primary">Shop Aerated Beverages</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Products Grid Section -->
-      <section class="py-5 bg-light">
-        <div class="container">
-          <div class="row">
-            <!-- Categories Sidebar -->
-            <div class="col-lg-3">
-              <div class="card mb-4">
-                <div class="category-title">Categories</div>
-                <div class="list-group list-group-flush">
-                  <a href="#" class="category-item list-group-item list-group-item-action d-flex align-items-center">
-                    <i class="fas fa-bolt me-2"></i>
-                    Energy Drinks
-                  </a>
-                  <a href="#" class="category-item list-group-item list-group-item-action d-flex align-items-center">
-                    <i class="fas fa-glass-whiskey me-2"></i>
-                    Soft Drinks
-                  </a>
-                  <a href="#" class="category-item list-group-item list-group-item-action d-flex align-items-center">
-                    <i class="fas fa-wine-glass me-2"></i>
-                    Juices
-                  </a>
-                  <a href="#" class="category-item list-group-item list-group-item-action d-flex align-items-center">
-                    <i class="fas fa-coffee me-2"></i>
-                    Health Drinks
-                  </a>
+      <!-- Featured Products Section -->
+      <section class="mb-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-card card h-100">
+              <div class="img-container">
+                <img src="assets/redbull.png" class="card-img-top" alt="Red Bull">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Red Bull</h5>
+                <p class="card-text">Energy Drink 250ml</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">₹125</span>
+                  <a href="energy-drinks.html" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
-
-            <!-- Products Grid -->
-            <div class="col-lg-9">
-              <div class="row">
-                <!-- Product Card 1 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/redbull.png" class="card-img-top" alt="Red Bull">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Red Bull</h5>
-                      <p class="card-text">Energy Drink 250ml</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹125</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-card card h-100">
+              <div class="img-container">
+                <img src="assets/monster.png" class="card-img-top" alt="Monster">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Monster</h5>
+                <p class="card-text">Energy Drink 500ml</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">₹150</span>
+                  <a href="energy-drinks.html" class="btn btn-primary">View More</a>
                 </div>
-
-                <!-- Product Card 2 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/tropicana.png" class="card-img-top" alt="Tropicana">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Tropicana</h5>
-                      <p class="card-text">Orange Juice 1L</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹110</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-card card h-100">
+              <div class="img-container">
+                <img src="assets/pepsi.png" class="card-img-top" alt="Pepsi">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Pepsi</h5>
+                <p class="card-text">Soft Drink 1.5L</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">₹85</span>
+                  <a href="aerated-beverages.html" class="btn btn-primary">View More</a>
                 </div>
-
-                <!-- Product Card 3 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/sprite.png" class="card-img-top" alt="Sprite">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Sprite</h5>
-                      <p class="card-text">Lemon Drink 2L</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹95</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product Card 4 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/mountain-dew.png" class="card-img-top" alt="Mountain Dew">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Mountain Dew</h5>
-                      <p class="card-text">Energy Drink 750ml</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹40</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product Card 5 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/pepsi.png" class="card-img-top" alt="Pepsi">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Pepsi</h5>
-                      <p class="card-text">Soft Drink 1.5L</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹85</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product Card 6 -->
-                <div class="col-md-4 col-sm-6 mb-4">
-                  <div class="product-card card">
-                    <div class="img-container">
-                      <img src="assets/maaza.png" class="card-img-top" alt="Maaza">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Maaza</h5>
-                      <p class="card-text">Mango Drink 600ml</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <span class="h5 mb-0">₹35</span>
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-card card h-100">
+              <div class="img-container">
+                <img src="assets/sprite.png" class="card-img-top" alt="Sprite">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sprite</h5>
+                <p class="card-text">Lemon Drink 2L</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">₹95</span>
+                  <a href="aerated-beverages.html" class="btn btn-primary">View More</a>
                 </div>
               </div>
             </div>
@@ -386,59 +192,54 @@
       </section>
 
       <!-- Services Section -->
-      <div class="row my-5 border rounded shadow-sm py-3">
-        <div class="col-md-3 service-box">
-          <i class="fas fa-truck"></i>
-          <h5>Free Delivery</h5>
-          <p class="text-muted small">Above Rupees 2000</p>
+      <section class="border rounded shadow-sm py-4">
+        <div class="row g-0">
+          <div class="col-md-3 service-box">
+            <i class="fas fa-truck"></i>
+            <h5>Free Delivery</h5>
+            <p class="text-muted small">Above ₹2000</p>
+          </div>
+          <div class="col-md-3 service-box">
+            <i class="fas fa-medal"></i>
+            <h5>Best Quality</h5>
+            <p class="text-muted small">Premium products guaranteed</p>
+          </div>
+          <div class="col-md-3 service-box">
+            <i class="fas fa-lock"></i>
+            <h5>Secure Payment</h5>
+            <p class="text-muted small">100% safe transactions</p>
+          </div>
+          <div class="col-md-3 service-box">
+            <i class="fas fa-headset"></i>
+            <h5>24/7 Support</h5>
+            <p class="text-muted small">Customer support anytime</p>
+          </div>
         </div>
-        <div class="col-md-3 service-box">
-          <i class="fas fa-medal"></i>
-          <h5>Best Quality</h5>
-          <p class="text-muted small">Premium products guaranteed</p>
-        </div>
-        <div class="col-md-3 service-box">
-          <i class="fas fa-lock"></i>
-          <h5>Secure Payment</h5>
-          <p class="text-muted small">100% safe transactions</p>
-        </div>
-        <div class="col-md-3 service-box">
-          <i class="fas fa-headset"></i>
-          <h5>24/7 Support</h5>
-          <p class="text-muted small">Customer support anytime</p>
-        </div>
-      </div>
-
-      
+      </section>
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
+    <footer class="footer bg-light mt-5">
+      <div class="container py-4">
         <div class="row">
           <div class="col-lg-3 mb-4">
             <h4>Avyaansh's Beverage</h4>
             <p>
-              Discover a world of refreshing beverages, delicious chocolates,
-              and premium snacks. At Avyaansh's Beverage, we bring you the
-              finest flavors to satisfy your cravings!
+              Discover a world of refreshing beverages. We bring you the finest drinks
+              to quench your thirst and energize your day!
             </p>
           </div>
           <div class="col-lg-3 mb-4">
-            <h5>About us</h5>
+            <h5>Quick Links</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
                 <a href="#" class="text-decoration-none text-dark">About Us</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark"
-                  >Privacy Policy</a
-                >
+                <a href="#" class="text-decoration-none text-dark">Contact Us</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark"
-                  >Refund and Returns Policy</a
-                >
+                <a href="#" class="text-decoration-none text-dark">Privacy Policy</a>
               </li>
             </ul>
           </div>
@@ -446,59 +247,30 @@
             <h5>Shop</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark">Shop</a>
+                <a href="energy-drinks.html" class="text-decoration-none text-dark">Energy Drinks</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark">Wishlist</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark">Home</a>
+                <a href="aerated-beverages.html" class="text-decoration-none text-dark">Aerated Beverages</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-3 mb-4">
-            <h5>Customer</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark"
-                  >My account</a
-                >
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark">Orders</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-decoration-none text-dark"
-                  >Lost password</a
-                >
-              </li>
-            </ul>
+            <h5>Connect With Us</h5>
+            <div class="social-links">
+              <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+            </div>
           </div>
         </div>
-        <hr />
+        <hr>
         <div class="row">
           <div class="col-md-6">
-            <p>Copyright © 2025 Avyaansh's Beverage</p>
+            <p class="mb-0">© 2025 Avyaansh's Beverage. All rights reserved.</p>
           </div>
           <div class="col-md-6 text-md-end">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#" class="text-dark"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark"><i class="fab fa-youtube"></i></a>
-              </li>
-            </ul>
+            <img src="assets/payment-methods.png" alt="Payment Methods" class="payment-methods" style="height: 30px;">
           </div>
         </div>
       </div>
